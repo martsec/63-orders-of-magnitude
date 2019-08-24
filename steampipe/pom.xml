@@ -75,6 +75,19 @@
             <artifactId>avro</artifactId>
             <version>${avro.version}</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.json4s/json4s-native -->
+        <dependency>
+            <groupId>org.json4s</groupId>
+            <artifactId>json4s-native_2.11</artifactId>
+            <version>3.6.7</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.sksamuel.avro4s/avro4s-core -->
+        <dependency>
+            <groupId>com.sksamuel.avro4s</groupId>
+            <artifactId>avro4s-core_2.11</artifactId>
+            <version>2.0.2</version>
+        </dependency>
+
     </dependencies>
 
     <build>
